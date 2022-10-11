@@ -23,5 +23,9 @@
   "homepage": "https://github.com/Morettilouie/contact-card#readme",
   "dependencies": {
     "concurrently": "^7.4.0"
-  }
+  },
+  "engines": {
+    "node": "17.x"
+  },
+  "heroku-prebuild": "npm install --dev"  
 }
